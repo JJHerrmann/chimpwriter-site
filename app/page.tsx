@@ -3,11 +3,8 @@ const pro = ["Speaker identification", "LLM transcript cleanup", "Readable resea
 
 // Lemon Squeezy checkout URLs (store: rookworks).
 const CHECKOUT = {
-  // TODO: needs the MONTHLY variant's own link. The one supplied was identical to
-  // annual (?enabled=2107053). In LS: product -> Variants -> Monthly row -> ...
-  // -> Copy checkout link; it should have a different ?enabled= id.
-  monthly: "#plans",
-  annual: "https://rookworks.lemonsqueezy.com/checkout/buy/15c598e3-67a2-4378-a066-3ec04c0d0efa?enabled=2107053",
+  monthly: "https://rookworks.lemonsqueezy.com/checkout/buy/15c598e3-67a2-4378-a066-3ec04c0d0efa?enabled=2107053",
+  annual: "https://rookworks.lemonsqueezy.com/checkout/buy/15c598e3-67a2-4378-a066-3ec04c0d0efa?enabled=2107056",
   lifetime: "https://rookworks.lemonsqueezy.com/checkout/buy/b0d00482-ce43-47ad-b973-d95e2921c184?enabled=2107078",
 };
 // TODO: point at the GitHub release once a packaged build exists.
