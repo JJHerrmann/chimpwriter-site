@@ -12,7 +12,7 @@ export default function Terms() {
       <h1>Terms of Service</h1>
       <p className="legal-date">Last updated: 10 September 2026</p>
 
-      <p>These terms govern your use of <strong>Chimpwriter</strong> — the desktop application and the website at <a href="https://chimpwriter.rook.works">chimpwriter.rook.works</a> — published by <strong>Jacob Herrmann, doing business as Rook Works</strong> ("Rook Works", "we", "us"), a sole proprietorship in the State of [STATE], United States. By downloading, installing, or using Chimpwriter, you agree to these terms. <strong>They contain a limitation of our liability.</strong></p>
+      <p>These terms govern your use of <strong>Chimpwriter</strong> — the desktop application and the website at <a href="https://chimpwriter.rook.works">chimpwriter.rook.works</a> — published by <strong>Jacob Herrmann, doing business as Rook Works</strong> ("Rook Works", "we", "us"), a sole proprietorship in the State of North Carolina, United States. By downloading, installing, or using Chimpwriter, you agree to these terms. <strong>They contain a limitation of our liability.</strong></p>
 
       <h2>Licence to use Chimpwriter</h2>
       <ol>
@@ -59,7 +59,7 @@ export default function Terms() {
       <p>You may stop using Chimpwriter at any time. We may suspend or terminate a licence if you materially breach these terms — for example, by circumventing the licensing mechanism or reselling keys. Abuse or threats directed at us or anyone assisting us will result in immediate termination. Termination does not entitle you to a refund except as provided above.</p>
 
       <h2>Governing law</h2>
-      <p>These terms are governed by the laws of the State of [STATE], United States, without regard to its conflict-of-laws rules. The courts located in that state have exclusive jurisdiction over any dispute that is not resolved informally, and you consent to their jurisdiction.</p>
+      <p>These terms are governed by the laws of the State of North Carolina, United States, without regard to its conflict-of-laws rules. The courts located in that state have exclusive jurisdiction over any dispute that is not resolved informally, and you consent to their jurisdiction.</p>
 
       <h2>Changes to these terms</h2>
       <p>We may update these terms. When we make a significant change we will refresh the date above and, where practical, notify licence holders by email. Continuing to use Chimpwriter after a change means you accept the updated terms.</p>

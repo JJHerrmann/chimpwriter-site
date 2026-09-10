@@ -12,7 +12,7 @@ export default function Privacy() {
       <h1>Privacy Policy</h1>
       <p className="legal-date">Last updated: 10 September 2026</p>
 
-      <p>Chimpwriter is published by <strong>Jacob Herrmann, doing business as Rook Works</strong> ("Rook Works", "we", "us"), a sole proprietorship in the State of [STATE], United States. This policy explains what personal data we collect when you visit <a href="https://chimpwriter.rook.works">chimpwriter.rook.works</a>, buy a licence, or activate the software — and what we do not collect.</p>
+      <p>Chimpwriter is published by <strong>Jacob Herrmann, doing business as Rook Works</strong> ("Rook Works", "we", "us"), a sole proprietorship in the State of North Carolina, United States. This policy explains what personal data we collect when you visit <a href="https://chimpwriter.rook.works">chimpwriter.rook.works</a>, buy a licence, or activate the software — and what we do not collect.</p>
 
       <p><strong>We have never sold personal data and never will.</strong></p>
 
