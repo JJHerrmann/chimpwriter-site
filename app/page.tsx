@@ -21,7 +21,7 @@ const SUPPORT = "mailto:chimpwriter@rook.works";
 export default function Home() {
   return <main>
     <nav className="nav wrap" aria-label="Main navigation">
-      <a className="brand" href="#top"><span className="brand-mark">CW</span><span>Chimpwriter</span></a>
+      <a className="brand" href="#top"><img className="brand-mark" src="/brand-mark.png" alt="Chimpwriter" width={36} height={36} /><span>Chimpwriter</span></a>
       <div className="nav-links"><a href="#workflow">How it works</a><a href="#plans">Plans</a><a href="#download">Download</a><a className="nav-cta" href="#download">Get Chimpwriter</a></div>
     </nav>
 
@@ -36,7 +36,7 @@ export default function Home() {
         <div className="app-body">
           <div className="source-row"><label>Source</label><div className="input">https://youtube.com/watch?v=lecture-07</div><button>File…</button></div>
           <div className="app-grid"><label>Speed</label><div className="select">Dolphin — small.en <span>⌄</span></div><label>Language</label><div className="select">auto <span>⌄</span></div><label>Topic</label><div className="input">Thermodynamics</div></div>
-          <div className="checks"><span><i>✓</i> Multi-speaker</span><span><i>✓</i> Clean up with LLM</span><span><i>✓</i> Readable article</span><span><i>✓</i> APA citation</span></div>
+          <div className="checks"><span><i>✓</i> Multi-speaker</span><span><i>✓</i> Clean up with LLM</span><span><i>✓</i> Readable article</span><span><i>✓</i> Citation (APA/MLA/Chicago)</span></div>
           <div className="run-row"><button className="run">Transcribe</button><div className="bar"><i/></div><span>Building research packet… 72%</span></div>
           <div className="packet"><div><small>RESEARCH / THERMODYNAMICS / LECTURE 07</small><strong>Your packet is ready</strong></div><div className="file-stack"><span>transcript.json</span><span>article.txt</span><span>citation.txt</span><span>subtitles.srt</span></div></div>
         </div>
@@ -59,6 +59,6 @@ export default function Home() {
 
     <section className="trust wrap"><p>Chimpwriter is downloadable software from Rook Works. Digital access and licence instructions are delivered electronically after purchase. Lemon Squeezy acts as merchant of record for paid orders.</p><div className="policy-grid"><details><summary>14-day refund policy <span>+</span></summary><p>Email chimpwriter@rook.works within 14 days of any monthly, annual, or one-time purchase for a full refund, no questions asked. Pro access ends after a refund. A permanent licence already earned after 365 paid days—or a one-time purchase past its refund window—is not revoked.</p></details><details><summary>Cancel anytime <span>+</span></summary><p>Cancel a subscription from the customer portal in your purchase email or by contacting support. Future charges stop and Pro continues to the end of the paid period. Paid days still count toward permanent ownership. There are no partial-period cancellation refunds.</p></details><details><summary>Permanent means offline <span>+</span></summary><p>A permanent licence is a signed file verified on your machine. If the licensing service disappears, it keeps working. It covers the current major version permanently; a future major version is an optional paid upgrade.</p></details><details><summary>Support <span>+</span></summary><p>Email chimpwriter@rook.works for billing, activation, or technical help. A real person usually replies within a couple of days.</p></details></div></section>
 
-    <footer><div className="wrap footer-inner"><div><a className="brand" href="#top"><span className="brand-mark">CW</span><span>Chimpwriter</span></a><p>Recording in. Research packet out.</p></div><div className="footer-links"><a href={SUPPORT}>Support</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="#plans">Plans</a><a href="#top">Back to top ↑</a></div></div><div className="wrap legal">© 2026 Rook Works. All rights reserved.<span>chimpwriter.rook.works</span></div></footer>
+    <footer><div className="wrap footer-inner"><div><a className="brand" href="#top"><img className="brand-mark" src="/brand-mark.png" alt="Chimpwriter" width={36} height={36} /><span>Chimpwriter</span></a><p>Recording in. Research packet out.</p></div><div className="footer-links"><a href={SUPPORT}>Support</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="#plans">Plans</a><a href="#top">Back to top ↑</a></div></div><div className="wrap legal">© 2026 Rook Works. All rights reserved.<span>chimpwriter.rook.works</span></div></footer>
   </main>;
 }
